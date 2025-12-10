@@ -2,7 +2,7 @@
 sudo apt update
 sudo apt install -y openjdk-17-jdk android-sdk apktool apksigner git python3 python3-pip ngrok qrencode
 
-git clone https://github.com/zxing/zxing.git /opt/zxing
+git clone https://github.com/Evonz20/QR /opt/Evonz20
 
 if [ ! -f ~/.android/debug.keystore ]; then
     keytool -genkey -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Android,C=US"
